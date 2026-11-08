@@ -64,6 +64,7 @@ class ALU:
         a &= self.mask
         result = (a << amount) & self.mask
 
+        # False if no amount because no shifting obv
         carry = bool((a >> (self.bits - amount)) & 1) if amount else False
 
         return ALUResult(

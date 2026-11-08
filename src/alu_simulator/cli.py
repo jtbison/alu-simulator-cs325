@@ -163,21 +163,21 @@ def build_result(
 
     content = Text()
 
-    content.append("A   ", style="cyan")
+    content.append("A     ", style="cyan")
     content.append(f"{a:0{width}b}", style="white")
     content.append(f"  ({a})\n", style="dim")
 
     if operation in (6, 7):
-        content.append(f"{symbol}  ", style="cyan")
+        content.append(f"{symbol}    ", style="cyan")
         content.append(f"{b} positions\n", style="white")
     else:
-        content.append(f"{symbol}   ", style="cyan")
+        content.append(f"{symbol} B   ", style="cyan")
         content.append(f"{b:0{width}b}", style="white")
         content.append(f"  ({b})\n", style="dim")
 
-    content.append("    " + "─" * width + "\n", style="blue")
+    content.append("      " + "─" * width + "\n", style="blue")
 
-    content.append("=   ", style="bold cyan")
+    content.append("=     ", style="bold cyan")
     content.append(
         f"{result.value:0{width}b}",
         style="bold green",
