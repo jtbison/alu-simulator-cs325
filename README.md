@@ -63,7 +63,7 @@ This is just using `alu.bitwise_xor()` function, which technically doesn't *real
 There are tests that I made for the `ALU` class in particular in `tests/test_alu.py` that uses PyTest. It just validates outputs that should be expected for each function. You can run them like this:
 
 ```bash
-uv run pytest -v
+uv run pytest
 ```
 
 The current source code says they all pass and I believe their assertions are right
