@@ -1,6 +1,6 @@
 [project]
 name = "alu-simulator"
-version = "0.1.0"
+version = "0.1.1"
 description = "mini ALU simulator project for CS 325"
 requires-python = ">=3.14"
 readme = "README.md"
