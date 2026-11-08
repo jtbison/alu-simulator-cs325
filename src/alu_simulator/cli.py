@@ -27,7 +27,7 @@ def show_menu(compact: bool = False) -> Panel:
     if compact:
         return Panel.fit(
             "1 ADD  2 SUB  3 AND  4 OR\n5 XOR  6 SHL  7 SHR  0 Exit",
-            title="[bold cyan]Mini ALU Simulator[/bold cyan]",
+            title="[bold cyan]ALU Simulator - CS 325[/bold cyan]",
             border_style="blue",
         )
 
