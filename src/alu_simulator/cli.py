@@ -48,7 +48,7 @@ def show_menu(compact: bool = False) -> Panel:
 
     return Panel.fit(
         table,
-        title="[bold cyan]Mini ALU Simulator[/bold cyan]",
+        title="[bold cyan]ALU Simulator - CS 325[/bold cyan]",
         border_style="blue",
     )
 
