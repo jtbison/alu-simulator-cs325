@@ -158,7 +158,7 @@ def build_result(
     }
 
     result = methods[operation](a, b)
-    title = f"{name} — {alu.bits}-bit ALU"
+    title = f"{name}"
     width = alu.bits
 
     content = Text()
