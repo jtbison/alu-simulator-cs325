@@ -17,11 +17,7 @@ alu = "alu_simulator.cli:main"
 requires = ["uv_build>=0.13.7,<0.14.0"]
 build-backend = "uv_build"
 
-[tool.taskipy.tasks]
-build = "pyinstaller --onefile --paths=src --copy-metadata readchar build.py --name alu_simulator"
-
 [dependency-groups]
 dev = [
     "pyinstaller>=6.22.3",
-    "taskipy>=1.14.1",
 ]
