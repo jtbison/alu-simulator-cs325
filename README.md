@@ -1,4 +1,4 @@
-# alu-simulator-cs325
+# ALU Simulator CS 325 Report
 
 A mini ALU simulator in Python using Rich for CLI
 
