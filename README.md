@@ -4,6 +4,8 @@ A mini ALU simulator in Python using Rich for CLI
 
 Rich is a bit complex on how it deals with layouts but the core idea is in `alu.py` with the `ALU` class. It has functions inside it that uses Python's own bitwise operators to calculate ADD, SUB, AND, OR, XOR, shift left, and shift right. In the program itself, you can select which operation to perform and then choose 2 numbers to perform it on
 
+There are binaries for Linux and Windows built by github actions in the Releases section for download.
+
 ## Examples
 
 This is using the `alu.add()` function and displaying it nicely with Rich (base 10 numbers formatted to base 2)
